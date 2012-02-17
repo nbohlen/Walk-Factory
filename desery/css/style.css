@@ -73,11 +73,12 @@ td { vertical-align: top; }
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-body{ font:16px/26px Helvetica, Helvetica Neue, Arial; background-color: black; color: #8c8c8c;}
+body{ font:16px/26px Georgia, "Times New Roman", Times, serif; background-color: black; color: #8c8c8c;}
 
-h1,h2,h3,h4 { color: #CC3333;}
+h1,h2,h3,h4, #header-container nav a, .intro a { font-family: "din-condensed-web",Arial,sans-serif; font-weight: normal;}
+h1,h2,h3,h4 { color: #CC3333; }
 
-p { font-family: Georgia, "Times New Roman", Times;}
+p { font-family: ;}
 
 .wrapper{
 	width:90%;
@@ -89,8 +90,8 @@ p { font-family: Georgia, "Times New Roman", Times;}
    =================== */
 
 #header-container{ height: 480px; position: relative; overflow: hidden;}
-#footer-container{ border-top:    20px solid #e44d26; }
-#main aside      { border-top:    20px solid #e44d26; }
+#footer-container{ border-top:    1px solid #CC3333; }
+#main aside      { border-top:    1px solid #CC3333; }
 
 #header-container,
 #footer-container,
@@ -142,19 +143,27 @@ p { font-family: Georgia, "Times New Roman", Times;}
     background: url("../img/action_buttons.png") no-repeat scroll 0 0 transparent;
     color: white;
     display: block;
-    font-size: 13px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     line-height: 41px;
     padding-left: 26px;
     text-align: left;
     text-decoration: none;
-    width: 247px;
+    width: 221px;
     margin: 30px 0 0 38px;
+    text-shadow: 0 -1px 1px #444444;
   }
   
-#logo_nav_wrapper #intros #intro_zauberer a { background-position: left top; }
+#logo_nav_wrapper #intros #intro_zauberer    a { background-position: left top; }
 #logo_nav_wrapper #intros #intro_entertainer a { background-position: left -41px; }
-#logo_nav_wrapper #intros #intro_hypnotist a { background-position: left -82px; }
-#logo_nav_wrapper #intros #intro_coach a { background-position: left -123px; }
+#logo_nav_wrapper #intros #intro_hypnotist   a { background-position: left -82px; }
+#logo_nav_wrapper #intros #intro_coach       a { background-position: left -123px; }
+
+#logo_nav_wrapper #intros #intro_zauberer    a:hover { background-position: right top; }
+#logo_nav_wrapper #intros #intro_entertainer a:hover { background-position: right -41px; }
+#logo_nav_wrapper #intros #intro_hypnotist   a:hover { background-position: right -82px; }
+#logo_nav_wrapper #intros #intro_coach       a:hover { background-position: right -123px; }
   
 #header_images div{ display: none; }
 
@@ -168,7 +177,8 @@ nav { position: absolute; top: 120px; margin: 0 auto; display: inline;}
 nav a{
 	display: block;
 	margin-bottom:10px;
-  font-size: 9px;
+  font-size: 11px;
+  letter-spacing: 1px;
   color: #666666;
   background-size: auto;
 	text-align:center;
@@ -328,12 +338,12 @@ nav li:hover a{
    ============ */
 
 	#main article{
-		float:left;
+		float:right;
 		width:57%;
 	}
 		
 	#main aside{
-		float:right;
+		float:left;
 		width:28%;
 	}
 }

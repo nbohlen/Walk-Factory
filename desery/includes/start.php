@@ -14,22 +14,22 @@
   			  <!-- Zauberer Intro -->
   			  <div class="intro" id="intro_zauber">
   			    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Consequat massa quis enim.</p>
-  			    <a href="#">Hier gehts zum Zauberer</a>
+  			    <a href="#">Hierlang zum Zauberer</a>
   			  </div>
   			  <!-- Zauberer Intro -->
   			  <div class="intro" id="intro_entertainer">
   			    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Consequat massa quis enim.</p>
-  			    <a href="#">Hier gehts zum Entertainer</a>
+  			    <a href="#">Hierlang zum Entertainer</a>
   			  </div>
   			  <!-- Zauberer Intro -->
   			  <div class="intro" id="intro_hypnotist">
   			    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Consequat massa quis enim.</p>
-  			    <a href="#">Hier gehts zum Hypnotist</a>
+  			    <a href="#">Hierlang zum Hypnotist</a>
   			  </div>
   			  <!-- Zauberer Intro -->
   			  <div class="intro" id="intro_coach">
   			    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Consequat massa quis enim.</p>
-  			    <a href="#">Hier gehts zum Zauberer</a>
+  			    <a href="#">Hierlang zum Zauberer</a>
   			  </div>
   			</div>
   		</div>

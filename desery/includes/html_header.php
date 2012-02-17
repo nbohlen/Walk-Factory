@@ -16,10 +16,10 @@
   <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
+  
+  <script type="text/javascript" src="http://use.typekit.com/elc4gfi.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  
 	<link rel="stylesheet" href="css/style.css">
 
 	<script src="../js/libs/modernizr-2.5.2-respond-1.1.0.min.js"></script>
